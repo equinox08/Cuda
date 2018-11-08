@@ -1,0 +1,528 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+
+.header {
+    background-color:#87509c;
+    padding-bottom:100px;
+    width:100%;
+}
+
+.wrap {
+    padding-top:40px;
+    display:block;
+    width:100%;
+    margin:0 auto;
+    
+}
+
+
+.logo {
+    float:left;
+    margin-left:25%;
+}
+
+.navbar {
+    float:right;
+    list-style:none;
+    text-align:center;
+    margin-right:25%;
+
+}
+
+.navbar li {
+    color:white;
+    padding:5px 10px;
+    display:inline-block;
+    padding:5px 20px;
+    border-radius:8px;
+}
+
+.navbar a {
+    text-decoration:none;
+    color:white;
+}
+
+.navbar li:hover {
+    background-color:#62257a;
+    cursor:pointer;
+
+}
+
+.wrap h1{
+    text-align:center;
+    color:white;
+    padding-top:100px;
+    margin-bottom:50px;
+}
+
+.clear {
+    clear:both;
+}
+
+.header button {
+    text-align:center;
+    color:white;
+    padding:20px 70px;
+    background-color:#eb7d4b;
+    display:block;
+    font-size:18px;
+    margin:0 auto 0;
+    margin-top:20px;
+    border-color:#eb7d4b;
+    border-radius:8px;
+    
+}
+
+.wrap button:hover {
+    background-color: #c86a40;
+    cursor:pointer;
+}
+
+
+.services {
+    background-color: #17c2a4;
+    display:block;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+
+.services h2 {
+    color:white;
+    text-align:center;
+    font-size:40px;
+    margin-top:0;
+}
+
+.services p {
+    text-align:center;
+    color:white;
+    font-weight:bold;
+}
+
+
+.service-items {
+    padding-top:80px;
+    text-align:center;
+   
+    
+}
+
+.item {
+    text-align:center;
+    display:inline-block;
+    width:15%;
+}
+
+.item h3 {
+    color:white;
+    padding-top:40px;
+}
+
+.team {
+    background-color:#e7f1f8;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+
+.team h2 {
+    text-align:center;
+    font-size:40px;
+
+}
+
+.team p {
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:50px;
+    font-weight:bold;
+}
+
+.team-items {
+    text-align:center;
+}
+
+.team-item {
+    width:15%;
+    display:inline-block;
+    text-align:center;
+}
+
+.team-item ul{
+    list-style:none;
+
+}
+
+.team-item li {
+    display:inline-block;
+    padding:0 5px 0;
+}
+
+.team-item h4 {
+    color:#1bc9e7;
+}
+
+.team-item p {
+    color:black;
+    padding-bottom:10px;
+}
+
+.team-item li:hover {
+    opacity:0.5;
+}
+
+.skills {
+    padding-bottom:100px;
+    padding-top:50px;
+
+}
+
+.skills h2 {
+    text-align:center;
+    font-size:40px;
+}
+
+.skills p {
+    text-align:center;
+    font-weight:bold;
+    padding-top:30px;
+    padding-bottom:60px;
+}
+
+.skill-items {
+    text-align:center;
+}
+
+.skill-item {
+    display:inline-block;
+    width:15%;
+    text-align:center;
+}
+
+.portfolio {
+    background-color:#ffdd99;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+
+.portfolio h2 {
+    font-size:40px;
+    text-align:center;
+}
+
+.portfolio p {
+    text-align:center;
+    font-weight:bold;
+    padding-top:30px;
+    padding-bottom:50px;
+    
+}
+
+.list ul {
+    list-style:none;
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+     
+}
+
+.list li {
+    display:inline-block;
+    background-color:#ebc985;
+    padding:5px 30px;
+    margin-left:5px;
+    border-radius:8px;
+}
+
+.list a {
+    text-decoration:none;
+    color:black;
+    
+}
+
+.list li:hover {
+    background-color:#f3e5c9;
+    cursor:pointer;
+}
+
+.portfolio-items {
+    text-align:center;
+}
+
+.portfolio-item img {
+    width:300px;
+}
+
+.portfolio-item {
+    display:inline-block;
+    width:20%;
+    text-align:center;
+
+}
+
+.portfolio button {
+    text-align:center;
+    color:white;
+    padding:20px 70px;
+    background-color:#17c2a4;
+    display:block;
+    font-size:18px;
+    margin:40px auto 0;
+    border-color:#14a58c;
+    border-radius:8px;
+}
+
+.portfolio button:hover {
+    background-color:#17c2a4;
+    opacity:0.7;
+}
+
+.people {
+    background-color:#d74680;
+    color:white;
+    padding-bottom:100px;
+    padding-top:50px;
+
+}
+
+.people h2 {
+    text-align:center;
+    font-size:40px;
+    padding-bottom:50px;
+}
+
+.people p{
+    text-align:center;
+}
+
+.people-items {
+    text-align:center;
+}
+
+.people-item {
+    display:inline-block;
+    width:15%;
+    padding-top:80px;
+}
+
+.people-item h4 {
+    color:#ebc985;
+}
+
+.touch {
+    background-color:#3c5499;
+    color:white;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+
+.touch h2 {
+    text-align:center;
+    font-size:40px;
+}
+
+.touch h3 {
+    text-align:center;
+    padding-top:20px;
+}
+
+.inputs {
+    text-align:center;
+    padding-top:50px;
+}
+
+.inputs input {
+    display:inline-block;
+    width:20%;
+    margin:0 auto 0;
+    height:40px;
+    background-color:#273a71;
+    border:0;
+    border-radius:8px;
+    color:white;
+}
+
+.inputs textarea {
+    display:block;
+    background-color:#273a71;
+    border:0;
+    border-radius:8px;
+    margin:20px auto 0;
+    width:40%;
+    height: 200px;
+    padding-top:10px;
+    color:white;
+}
+
+.touch button {
+    text-align:center;
+    color:white;
+    padding:20px 70px;
+    background-color:#30bae7;
+    display:block;
+    font-size:18px;
+    margin:50px auto 0;
+    border-color:#299ec5;
+    border-radius:8px;
+
+}
+
+.touch button:hover {
+    background-color:#17c2a4;
+    opacity:0.7;
+}
+
+.footer {
+    background-color:#344b8e;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.footerlist ul {
+    list-style:none;
+    text-align:center;
+}
+
+.footerlist li {
+    display:inline-block;
+    margin-left:80px;
+}
+
+.footerlist a {
+    text-decoration:none;
+    font-size:25px;
+    color:white;
+}
+
+
+
+
+
+
+
+/* MEDIA */
+
+@media screen and (max-width:1800px) {
+
+    .team-item {
+        width:40%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+
+    .wrap img {
+        float:none;
+        margin:10px auto 20px;
+        display:block;
+    }
+
+    .navbar {
+        float:none;
+        clear:left;
+        margin:0 auto 0;
+    }
+
+    .item {
+        width:40%;
+    }
+
+    .skill-item {
+        width:40%;
+        padding-top:20px;
+        
+    }
+
+    .portfolio-item {
+        width:40%;
+        padding-top:20px;
+    
+    }
+
+    .people-item {
+        width:40%;
+    }
+
+    .footerlist li {
+        margin-left:20px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+
+    .team-item {
+        width:100%;
+    }
+
+    .portfolio-item {
+        width:100%;
+        padding-top:20px;
+    
+    }
+
+    .inputs input {
+        display:block;
+        width:60%;
+        margin-top:5px;
+    }
+
+    .inputs textarea {
+        width:60%;
+    }
+
+    .footerlist li {
+        display:block;
+        margin:5px auto 0;
+    }
+
+
+}
+
+@media screen and (max-width:530px) {
+
+    .navbar {
+        margin-right:20%;
+    }
+
+    .navbar li {
+        display:block;
+        width:100%;
+    }
+
+    .wrap h1 {
+        padding-top:50px;
+    }
+
+    .item {
+        width:100%;
+    }
+
+    .skill-item {
+        width:100%;
+    }
+
+    .list li {
+        display:block;
+        margin-top:5px;
+        margin-right:50px;
+        
+    }
+
+    .people-item {
+        width:100%;
+    }
+
+    .inputs input {
+        display:block;
+        width:80%;
+        margin-top:5px;
+    }
+
+    .inputs textarea {
+        width:80%;
+    }
+
+}
